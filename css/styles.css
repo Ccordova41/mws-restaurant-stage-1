@@ -196,6 +196,7 @@ nav h1 a {
   top: 0;
   width: 100%;
   z-index: 1000;
+	order: 1;
 }
 
 .inside #map-container {
@@ -205,6 +206,7 @@ nav h1 a {
   right: 0;
   top: 80px;
   width: 100%;
+	order: 2;
 }
 .inside #map {
   background-color: #ccc;
@@ -251,10 +253,6 @@ nav h1 a {
   padding: 140px 40px 30px;
   /*width: 50%;*/
 	margin-right: 20px;
-}
-
-#restaurant-container {
-	  height: auto;
 }
 
 #reviews-container {
