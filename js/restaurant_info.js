@@ -120,6 +120,8 @@ createReviewHTML = (review) => {
   const name = document.createElement('p');
   name.innerHTML = review.name;
   li.appendChild(name);
+  name.setAttribute("id", "rname");
+
 
   const date = document.createElement('p');
   date.innerHTML = review.date;

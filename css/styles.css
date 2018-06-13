@@ -110,6 +110,7 @@ nav h1 a {
     padding: 10px 40px 16px;
     list-style: none;
     background-color: #eee;
+		 background: linear-gradient(to bottom right, #eee, white)
     font-size: 17px;
     margin: 0;
     width: calc(100% - 80px);
@@ -279,6 +280,7 @@ nav h1 a {
   width: 50%;
 	text-align: center;
 	margin-right: 20px;
+	margin: auto;
 }
 
 
@@ -310,11 +312,12 @@ nav h1 a {
   font-size: 12pt;
   font-weight: 300;
   letter-spacing: 10px;
-  margin: 0 0 20px;
+  /*margin: 0 0 20px;*/
   padding: 2px 0;
   text-align: center;
   text-transform: uppercase;
 	width: 90%;
+	margin: auto;
 }
 
 
@@ -341,11 +344,12 @@ nav h1 a {
 #reviews-list li {
   background-color: #fff;
   border: 2px solid #f3f3f3;
+	border-radius: 20px 0 20px 0px;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
-  padding: 0 20px 20px;
+  padding: 20px;
   position: relative;
   width: 85%;
 }
@@ -353,8 +357,19 @@ nav h1 a {
 
 #reviews-list li p {
   margin: 0 0 10px;
+
 }
 
+/* Name of reviewer  */
+#rname {
+	background: black;
+	color: white;
+	padding-top: -10px
+}
+
+#restaurant-hours {
+	margin: auto;
+}
 
 #restaurant-hours td {
   color: black;
@@ -378,6 +393,11 @@ nav h1 a {
 
 	.filter-options {
 		background: red;
+	}
+
+	#reviews-list li {
+		width: 60%;
+		height: 80%;
 	}
 }
 
