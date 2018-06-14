@@ -363,7 +363,7 @@ nav h1 a {
 	background: #333333;
 	color: white;
 	font-size: 15pt;
-	/*float: left;*/
+	margin-left: -20px;
 	grid-column: 1;
 	grid-row: 1;
 }
@@ -379,30 +379,28 @@ nav h1 a {
 }
 
 #rating {
-	padding-top: 20px;
-	margin-top: 30px;
 	background: #ff9a05;
 	width: 80px;
 	color: white;
 	letter-spacing: 1px;
+	border-radius: 4px;
 	text-align: center;
 	text-transform: uppercase;
 	grid-column: 1;
 	grid-row: 2;
+	margin-left: -5px;
 }
 
 #comment {
 	grid-column: 1/4;
-	/*grid-row: 3/4;*/
+	margin-left: -20px;
 }
 
 
 #reviews-list li p {
-  /*margin: 0 0 10px;*/
-	margin-left: -20px;
 	margin-top: auto;
 	margin-right: -20px;
-	padding: 0 20px;
+	padding: 10px 15px;
 }
 
 /* Name of reviewer  */
