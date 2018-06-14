@@ -10,7 +10,7 @@ body,td,th,p{
 
 body {
 	background-color: #fdfdfd;
-	background: black;
+	background: #eee;
 	margin: 0;
 	padding: 0;
 	position: relative;
@@ -371,7 +371,7 @@ nav h1 a {
 
 #date {
 	background: #333333;
-	color: white;
+	color: #ccc;
 	font-size: 15pt;
 	grid-column: 2;
 	grid-row: 1;
@@ -423,31 +423,58 @@ nav h1 a {
 	.filter-options {
 		background: black;
 	}
-}
 
-/*min 600 - 759*/
-@media only screen and (min-width:600px) {
-	.filter-options {
-		background: yellow;
+	#restaurant-container {
+		width: 80%;
+	}
+
+	#reviews-container {
+		max-width: 70%;
+	}
+
+	#rname {
+		font-size: 12pt;
+
+	}
+
+	#date {
+		font-size: 12pt;
+	}
+
+	#comment {
+		font-size: 11pt;
 	}
 }
+
 
 /*min 760 and max 990*/
-@media only screen and (min-width: 800px) {
-
-	.filter-options {
-		background: red;
-	}
+@media only screen and (max-width: 800px) and (min-width: 601px) {
 
 	#reviews-list li {
 		height: 80%;
 	}
 
+	#restaurant-container {
+		width: 80%;
+	}
+
+	#comment {
+		font-size: 12pt;
+	}
+
+	.inside #map-container {
+	  background: #ccc none repeat scroll 0 0;
+	  height: 400px;
+		width: 100%;
+		position: relative;
+	}
 
 }
 
-@media only screen and (min-width: 990px) {
+@media only screen and (min-width: 801px) {
 	.filter-options {
-		background: blue;
+		background: #FF9B00;
+		background: linear-gradient(to right, #A0D5FF, #FFC873);
 	}
+
 }
