@@ -154,7 +154,7 @@ nav h1 a {
   width: 100%;
   height: auto;
 	background: #18bae5;/* For browsers that do not support gradients */
-  background: linear-gradient(to right, #18bae5, #0dbdb4 );
+	background: linear-gradient(to right, #A0D5FF, #FFC873);
   align-items: center;
 	padding: 15px 0;
 }
@@ -418,7 +418,7 @@ nav h1 a {
 
 /* ====================== Media Queries ====================== */
 
-/*min 600 and below */
+/*max 600 and below */
 @media only screen and (max-width: 600px) {
 	.filter-options {
 		background: black;
@@ -447,7 +447,7 @@ nav h1 a {
 }
 
 
-/*min 760 and max 990*/
+/*min 601 and max 800*/
 @media only screen and (max-width: 800px) and (min-width: 601px) {
 
 	#reviews-list li {
@@ -468,13 +468,4 @@ nav h1 a {
 		width: 100%;
 		position: relative;
 	}
-
-}
-
-@media only screen and (min-width: 801px) {
-	.filter-options {
-		background: #FF9B00;
-		background: linear-gradient(to right, #A0D5FF, #FFC873);
-	}
-
 }
