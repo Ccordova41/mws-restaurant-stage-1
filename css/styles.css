@@ -349,7 +349,8 @@ nav h1 a {
   background-color: #fff;
   border: 2px solid #f3f3f3;
 	border-radius: 20px 0 20px 0px;
-  display: block;
+  display: grid;
+	grid-template-columns: repeat(2, 1fr);
 	list-style: none;
   margin: 0 0 30px;
   overflow: hidden;
@@ -359,15 +360,22 @@ nav h1 a {
 }
 
 #rname {
-	background: black;
+	background: #333333;
 	color: white;
 	font-size: 15pt;
 	/*float: left;*/
+	grid-column: 1;
+	grid-row: 1;
 }
 
 #date {
-	background: blue;
-	/*float: right;*/
+	background: #333333;
+	color: white;
+	font-size: 15pt;
+	grid-column: 2;
+	grid-row: 1;
+	float: right;
+	text-align: right;
 }
 
 #rating {
@@ -379,8 +387,15 @@ nav h1 a {
 	letter-spacing: 1px;
 	text-align: center;
 	text-transform: uppercase;
-
+	grid-column: 1;
+	grid-row: 2;
 }
+
+#comment {
+	grid-column: 1/4;
+	/*grid-row: 3/4;*/
+}
+
 
 #reviews-list li p {
   /*margin: 0 0 10px;*/
