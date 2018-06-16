@@ -142,18 +142,23 @@ createRestaurantHTML = (restaurant) => {
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
   li.append(image);
+  image.setAttribute("alt", "restaurant");
+  image.setAttribute("tabindex", "0");
 
   const name = document.createElement('h1');
   name.innerHTML = restaurant.name;
   li.append(name);
+  name.setAttribute("tabindex", "0");
 
   const neighborhood = document.createElement('p');
   neighborhood.innerHTML = restaurant.neighborhood;
   li.append(neighborhood);
+  neighborhood.setAttribute("tabindex", "0");
 
   const address = document.createElement('p');
   address.innerHTML = restaurant.address;
   li.append(address);
+  address.setAttribute("tabindex", "0");
 
   const more = document.createElement('a');
   more.innerHTML = 'View Details';
