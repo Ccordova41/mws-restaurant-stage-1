@@ -2,7 +2,7 @@
 
 ## Description
 
-Welcome to the best and only Restaurant review site you'll need. U+1F609
+Welcome to the best and only Restaurant review site you'll need. 😉
 You can view the restaurants that are located in your area and all of the information needed.
 
 PLUS, get to see the reviews for these establishments so you can decide if this is the restaurant you'll be going to.
