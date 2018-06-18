@@ -5,7 +5,7 @@
 Welcome to the best and only Restaurant review site you'll need. 😉
 You can view the restaurants that are located in your area and all of the information needed.
 
-PLUS, get to see the reviews for these establishments so you can decide if this is the restaurant you'll be going to.
+PLUS, view the reviews for these establishments so you can decide if this is the restaurant you'll be going to.
 
 ## Getting Started
 

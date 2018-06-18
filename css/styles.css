@@ -10,11 +10,12 @@ body,td,th,p{
 
 body {
 	background-color: #fdfdfd;
-	background: #eee;
+	background: black;
 	margin: 0;
 	padding: 0;
 	position: relative;
 	max-width: 100%;
+	overflow-x: hidden;
 }
 
 
@@ -112,8 +113,7 @@ nav h1 a {
 #breadcrumb {
     padding: 10px 40px 16px;
     list-style: none;
-    background-color: #eee;
-		background: linear-gradient(to bottom right, #eee, white);
+    background-color: black;
     font-size: 17px;
     margin: 0;
     width: calc(100% - 80px);
