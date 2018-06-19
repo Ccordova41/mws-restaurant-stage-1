@@ -195,6 +195,7 @@ nav h1 a {
   text-align: left;
   width: 270px;
 	display: inline-grid;
+	box-sizing: border-box;
 }
 
 
