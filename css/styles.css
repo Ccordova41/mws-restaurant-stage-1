@@ -418,7 +418,7 @@ nav h1 a {
 
 /* ====================== Media Queries ====================== */
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 599px) {
 
 	body {
 		margin: 0;
@@ -428,7 +428,7 @@ nav h1 a {
 
 	nav h1 a {
 		font-size: 12pt;
-		letter-spacing: 0;
+		letter-spacing: 2px;
 	}
 
 	.filter-options select {
@@ -439,15 +439,39 @@ nav h1 a {
 	  letter-spacing: 0;
 	  margin-bottom: 5px;
 	  padding: 0 10px;
-	  width: 140px;
+	  width: 130px;
 	}
 
+	#restaurant-container {
+	  border-bottom: 1px solid #d9d9d9;
+	  border-top: 1px solid #fff;
+	  padding: 0;
+	  width: 50%;
+		text-align: left;
+		margin: 0 auto;
+		box-sizing: border-box;
+
+	}
 
 	#restaurants-list li {
 	  margin: 1px;
-
-	  padding: 0 10px 25px;
+	  padding: 0 10px;
 	  width: auto;
+	}
+
+	#reviews-container {
+		margin-left: 0;
+	}
+
+	#reviews-list {
+		margin-left: -10px;
+		padding: 0;
+	}
+
+	#reviews-list li p {
+		margin-top: -1px;
+		margin-right: -20px;
+		padding: 10px 5px;
 	}
 
 	#rname {
@@ -460,15 +484,12 @@ nav h1 a {
 
 	}
 
-
-
-
 }
 
 /*max 600 and below */
 @media only screen and (max-width: 600px) {
 	.filter-options {
-		background: black;
+		background: white;
 	}
 
 	#restaurant-container {
