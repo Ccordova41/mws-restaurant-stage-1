@@ -11,6 +11,7 @@ body,td,th,p{
 body {
 	background-color: #fdfdfd;
 	background: black;
+	margin: 0;
 }
 
 
@@ -455,6 +456,14 @@ nav h1 a {
 
 	#restaurant-container {
 		width: 80%;
+	}
+
+	#rname {
+		font-size: 9pt;
+	}
+
+	#date {
+		font-size: 9pt;
 	}
 
 	#comment {
