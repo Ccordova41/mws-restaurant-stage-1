@@ -205,7 +205,7 @@ nav h1 a {
   display: block;
   margin: 0;
   max-width: 100%;
-  min-height: 248px;
+  max-height: 200px;
 }
 
 
@@ -418,6 +418,53 @@ nav h1 a {
 
 /* ====================== Media Queries ====================== */
 
+@media only screen and (max-width: 430px) {
+
+	body {
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+
+	nav h1 a {
+		font-size: 12pt;
+		letter-spacing: 0;
+	}
+
+	.filter-options select {
+	  background-color: white;
+	  border: 1px solid #fff;
+	  font: 11pt Arial,sans-serif;
+	  height: 35px;
+	  letter-spacing: 0;
+	  margin-bottom: 5px;
+	  padding: 0 10px;
+	  width: 140px;
+	}
+
+
+	#restaurants-list li {
+	  margin: 1px;
+
+	  padding: 0 10px 25px;
+	  width: auto;
+	}
+
+	#rname {
+		font-size: 9pt;
+	}
+
+	#date {
+		font-size: 9pt;
+		margin-left: -10px;
+
+	}
+
+
+
+
+}
+
 /*max 600 and below */
 @media only screen and (max-width: 600px) {
 	.filter-options {
@@ -434,7 +481,6 @@ nav h1 a {
 
 	#rname {
 		font-size: 9pt;
-
 	}
 
 	#date {
