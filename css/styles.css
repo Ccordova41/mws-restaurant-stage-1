@@ -239,6 +239,8 @@ nav h1 a {
   text-transform: uppercase;
 }
 
+
+
 /* ====================== Restaurant Details ====================== */
 .inside header {
   /*position: fixed;*/
@@ -284,7 +286,7 @@ nav h1 a {
 
 #restaurant-name {
   color: #f18200;
-  font: 20pt Arial,sans-serif;
+  font: 22pt Arial,sans-serif;
   font-weight: 200;
   letter-spacing: 0;
   margin: 15px 0 30px;
