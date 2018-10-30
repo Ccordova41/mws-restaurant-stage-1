@@ -1,5 +1,4 @@
 # ignore file with secret API key
-
 src/js/secret.js
 
 # ignore dependencies
